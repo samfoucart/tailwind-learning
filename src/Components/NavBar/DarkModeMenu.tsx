@@ -28,7 +28,7 @@ export default function DarkModeMenu() {
                 </button>
                 <div className='relative'>
                     {isDarkMenuOpen && (
-                        <div className='absolute top-6 right-0 min-h-64 min-w-64 rounded-xl dark:border-slate-800 border shadow-2xl bg-slate-100/80 dark:bg-slate-900/90 backdrop-blur flex flex-col'>
+                        <div className='absolute top-6 right-0 min-h-64 min-w-64 rounded-xl dark:border-slate-800 border shadow-2xl bg-slate-100/90 dark:bg-slate-900/90 backdrop-blur flex flex-col'>
                             <div className='flex flex-col p-4'>
                                 <h1 className='text-left text-lg font-serif dark:text-slate-200 text-slate-900'>Turn Dark Mode On/Off</h1>
                             </div>
