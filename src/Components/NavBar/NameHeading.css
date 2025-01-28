@@ -1,0 +1,16 @@
+.move-from-center-to-nav-bar {
+    animation-duration: 3s;
+    animation: move-from-center-to-nav-bar;
+}
+
+@keyframes move-from-center-to-nav-bar {
+    from {
+        translate: 100px 100px;
+        scale: 1000%;
+    }
+
+    to {
+        translate: 200px 200px;
+        scale: 100%
+    }
+}
