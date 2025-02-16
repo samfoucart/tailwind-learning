@@ -31,7 +31,7 @@ export function SideBar(props: SideBarProps) {
                         <div className="flex flex-col gap-4 px-12 py-6">
                             <a className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400" href="#">Home</a>
                             <a className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400" href="#">Blog</a>
-                            <a className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400" href="#">About</a>
+                            <a className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400" href="#">Projects</a>
                             <a className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400" href="#">Résumé</a>
                         </div>
                         <div className='h-0 w-full border-b dark:border-slate-800'></div>

@@ -11,7 +11,7 @@ export interface NavBarProps {
 
 export function NavBar(props: NavBarProps): JSX.Element {
     return (
-        <nav className=" bg-slate-100/70 dark:bg-slate-900/70 backdrop-blur shadow-lg min-h-14 border-b dark:border-slate-800 flex flex-row py-2 px-12 justify-center items-center">
+        <nav className=" bg-slate-100/70 dark:bg-slate-900/70 backdrop-blur shadow-lg min-h-14 border-b dark:border-slate-800 flex flex-row py-2 px-8 justify-center items-center">
             <div className="flex flex-row flex-grow justify-between items-center lg:max-w-screen-xl">
                 <h1 className="text-slate-900 dark:text-slate-200 text-2xl font-bold sticky top-0 font-serif">Sam Foucart</h1>
                 <div className="flex flex-row items-center gap-6">

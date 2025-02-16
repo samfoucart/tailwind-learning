@@ -1,14 +1,27 @@
+import circlePicture from '../assets/me/IMG_7522-modified.png';
+
 export function Content() {
   return (
     <>
       <div className="w-full shadow-2xl shadow-amber-900">
-        <div className="m-auto lg:max-w-6xl py-6 px-6">
+        <div className="m-auto lg:max-w-6xl py-6 px-2">
+          <div className="grid grid-cols-2 w-full mb-12 justify-center items-center">
+            <div className='flex flex-col p-6 lg:p-24 gap-6 lg:gap-12'>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold dark:text-slate-200 text-slate-900 font-serif">
+                Samuel <br></br> Foucart
+              </h1>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold dark:text-slate-200 text-slate-900 font-serif">
+                Software <br></br> Engineering
+              </h1>
+            </div>
+            <img className='p-6 lg:px-24' src={circlePicture}></img>
+          </div>
+          
           <h1 className="text-3xl font-bold p-6 dark:text-slate-200 text-slate-900 font-serif">
-            Test Heading - This is an example of a heading
+            Here you can find my blog, recent projects, and my updated résumé
           </h1>
           <p className="font-serif p-6 leading-relaxed">
-            This is an example of body text. I am writing a column that is long
-            here.
+            As of last update, I have been programming for just a little bit more than 3 years now.
           </p>
           <p className="font-serif p-6 leading-relaxed">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
