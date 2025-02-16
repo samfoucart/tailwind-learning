@@ -2,7 +2,7 @@ export function Content() {
   return (
     <>
       <div className="w-full shadow-2xl shadow-amber-900">
-        <div className="m-auto lg:max-w-6xl py-6 px-12">
+        <div className="m-auto lg:max-w-6xl py-6 px-6">
           <h1 className="text-3xl font-bold p-6 dark:text-slate-200 text-slate-900 font-serif">
             Test Heading - This is an example of a heading
           </h1>
