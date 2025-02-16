@@ -5,6 +5,7 @@ import { SideBarButton } from './SideBarButton'
 // import GitHubMark from '../../assets/github-mark/github-mark-white.svg'
 
 export interface NavBarProps {
+    sideBarVisble: boolean,
     sideBarButtonClick: () => void,
 }
 
@@ -14,8 +15,8 @@ export function NavBar(props: NavBarProps): JSX.Element {
             <div className="flex flex-row flex-grow justify-between items-center lg:max-w-screen-xl">
                 <h1 className="text-slate-900 dark:text-slate-200 text-2xl font-bold sticky top-0 font-serif">Sam Foucart</h1>
                 <div className="flex flex-row items-center gap-6">
-                    <GitHubButton></GitHubButton>
-                    <DarkModeMenu></DarkModeMenu>
+                    <div className='hidden lg:block'><GitHubButton></GitHubButton></div>
+                    <div className='hidden lg:block'><DarkModeMenu></DarkModeMenu></div>
                     <SideBarButton sidebarButtonClick={props.sideBarButtonClick}></SideBarButton>
                     {/* <button type="button" id="headlessui-listbox-button-:r5:" aria-haspopup="listbox" aria-expanded="false" data-headlessui-state="" aria-labelledby="headlessui-label-:r4: headlessui-listbox-button-:r5:">
                         <span className="dark:hidden">

@@ -7,8 +7,8 @@ export function Nav() {
     return (
         <>
             <div className="sticky top-0 z-30 h-full">
-                <NavBar sideBarButtonClick={() => setSideBarVisible(!sideBarVisible)}></NavBar>
-                <SideBar setSideBarVisible={setSideBarVisible} sideBarVisible={sideBarVisible}></SideBar>
+                <NavBar sideBarButtonClick={() => setSideBarVisible(!sideBarVisible)} sideBarVisble={sideBarVisible}></NavBar>
+                <SideBar setSideBarVisible={() => setSideBarVisible(!sideBarVisible)} sideBarVisible={sideBarVisible}></SideBar>
             </div>
         </>
     )
