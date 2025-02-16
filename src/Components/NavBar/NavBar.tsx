@@ -9,8 +9,6 @@ export interface NavBarProps {
 }
 
 export function NavBar(props: NavBarProps): JSX.Element {
-    
-
     return (
         <nav className=" bg-slate-100/70 dark:bg-slate-900/70 backdrop-blur shadow-lg min-h-14 border-b dark:border-slate-800 flex flex-row py-2 px-12 justify-center items-center">
             <div className="flex flex-row flex-grow justify-between items-center lg:max-w-screen-xl">
