@@ -1,7 +1,7 @@
 export function BlogPosts() {
-    return (
-        <>
-            <p>Hello</p>
-        </>
-    );
+  return (
+    <>
+      <p>Hello</p>
+    </>
+  );
 }
