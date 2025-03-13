@@ -2,7 +2,7 @@ export interface SideBarButtonProps {
   sidebarButtonClick: () => void;
 }
 
-export function SideBarButton(props: SideBarButtonProps) {
+export function  SideBarButton(props: SideBarButtonProps) {
   return (
     <>
       <div>

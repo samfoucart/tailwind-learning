@@ -18,22 +18,22 @@ export function NavBar(props: NavBarProps): JSX.Element {
           </h1>
         </NavLink>
         <NavLink to="/" className="hidden lg:block">
-          <h1 className="text-slate-900 hover:text-slate-600 dark:text-slate-200 hover:dark:text-slate-50 text-lg font-bold font-serif">
+          <h1 className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400">
             Home
           </h1>
         </NavLink>
         <NavLink to="/blog-posts" className="hidden lg:block">
-          <h1 className="text-slate-900 hover:text-slate-600 dark:text-slate-200 hover:dark:text-slate-50 text-lg font-bold font-serif">
+          <h1 className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400">
             Blog
           </h1>
         </NavLink>
         <NavLink to="/" className="hidden lg:block">
-          <h1 className="text-slate-900 hover:text-slate-600 dark:text-slate-200 hover:dark:text-slate-50 text-lg font-bold font-serif">
+          <h1 className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400">
             Projects
           </h1>
         </NavLink>
         <NavLink to="/" className="hidden lg:block">
-          <h1 className="text-slate-900 hover:text-slate-600 dark:text-slate-200 hover:dark:text-slate-50 text-lg font-bold font-serif">
+          <h1 className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400">
             Résumé
           </h1>
         </NavLink>

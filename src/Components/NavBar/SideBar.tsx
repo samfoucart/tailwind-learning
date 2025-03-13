@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import GitHubButton from "./GitHubButton";
+import { NavLink } from "react-router";
 
 export interface SideBarProps {
   sideBarVisible: boolean;
@@ -35,30 +36,30 @@ export function SideBar(props: SideBarProps) {
             ref={menuRef}
           >
             <div className="flex flex-col gap-4 px-12 py-6">
-              <a
+              <NavLink
+                to="/"
                 className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400"
-                href="#"
               >
                 Home
-              </a>
-              <a
+              </NavLink>
+              <NavLink
+                to="/blog-posts"
                 className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400"
-                href="#"
               >
                 Blog
-              </a>
-              <a
+              </NavLink>
+              <NavLink
+                to="/"
                 className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400"
-                href="#"
               >
                 Projects
-              </a>
-              <a
+              </NavLink>
+              <NavLink
+                to="/"
                 className="font-serif text-lg font-bold text-slate-900 dark:text-slate-200 hover:text-slate-500 dark:hover:text-slate-400"
-                href="#"
               >
                 Résumé
-              </a>
+              </NavLink>
             </div>
             <div className="h-0 w-full border-b dark:border-slate-800"></div>
             <div className="flex flex-row justify-between gap-2 px-12">
