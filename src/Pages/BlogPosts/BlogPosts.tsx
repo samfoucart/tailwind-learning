@@ -32,7 +32,8 @@ export function BlogPosts() {
       return (
       <>
         <Link className="border-b dark:border-slate-800" to={`${post.contentRef}`}>
-          <div className="p-6 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800 flex flex-col">
+          <div className="p-6 rounded-xl flex flex-col hover:text-slate-400 hover:dark:text-slate-100">
+            {/* hover:bg-slate-50 dark:hover:bg-slate-800 */}
             <h2 className="text-2xl font-serif font-bold text-slate-900 dark:text-slate-200">{post.name}</h2>
             <p>Author: {post.author.fullName}</p>
             <p>Email: {post.author.email}</p>
